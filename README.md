@@ -1,3 +1,1 @@
-# organaiser_app
-
-Hello EPTA (:)
+# Welcome to this project
