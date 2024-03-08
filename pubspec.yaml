@@ -1,0 +1,64 @@
+name: organaiser
+description: my app
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 2024.20.01
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any 
+  http: 1.1.0
+  flutter_secure_storage: ^8.0.0
+  flutter_bloc: ^8.1.3
+  adaptive_theme: ^3.3.0
+  auto_route: ^7.8.3
+  get_it: ^7.6.4
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.5
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.7.1
+  hive_generator: ^2.0.1
+  auto_route_generator: ^7.3.1
+  flutter_launcher_icons: "^0.13.1"
+  build_runner:
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  fonts:
+    - family: Comforta
+      fonts:
+        - asset: fonts/Comforta-Regular.ttf
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "picture/icon.jpg"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  
+  web:
+    generate: true
+    image_path: "picture/icon.jpg"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  
+  windows:
+    generate: true
+    image_path: "picture/icon.jpg"
+    icon_size: 48 # min:48, max:256, default: 48
+
+  macos:
+    generate: true
+    image_path: "picture/icon.jpg"
