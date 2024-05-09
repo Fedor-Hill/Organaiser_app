@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:organaiser/data/api_kundelik/model/api_home_works/api_home_works_model.dart';
 import 'package:organaiser/domain/model/shedule_model/shedule_model.dart';
 import 'package:organaiser/data/api_kundelik/model/api_shedule/api_shedule_model.dart';
@@ -6,6 +7,16 @@ class SheduleMapper {
   static SheduleModel fromApi(
       ApiSheduleModel apiSheduleModel, ApiHomeWorkModel apiHomeWorkModel) {
     SheduleModel sheduleModel = SheduleModel(
+=======
+import 'package:organaiser/data/api_kundelik/model/api_homework_model/api_homework_model.dart';
+import 'package:organaiser/data/api_kundelik/model/api_shedule_model/api_shedule_model.dart';
+import 'package:organaiser/domain/model/shedule.dart';
+
+class SheduleMapper {
+  static Shedule fromApi(
+      ApiSheduleModel apiSheduleModel, ApiHomeWorkModel apiHomeWorkModel) {
+    Shedule sheduleModel = Shedule(
+>>>>>>> 18c7d66 (version 3.0.1)
         dayModel: DayMapper()
             .fromApi(apiSheduleModel.apiDayModel, apiHomeWorkModel.works));
 
@@ -68,10 +79,13 @@ class LessonsMapper {
       int lessonId, List<ApiHomeWorkDetailsModel> listApiHomework) {
     String? homeWork;
 
+<<<<<<< HEAD
     // for (int i = 0; i < listApiHomework.length; i++) {
     //   if (lessonId == listApiHomework[i].lesson) {}
     // }
 
+=======
+>>>>>>> 18c7d66 (version 3.0.1)
     for (var item in listApiHomework) {
       if (lessonId == item.lesson) {
         if (homeWork == null) {

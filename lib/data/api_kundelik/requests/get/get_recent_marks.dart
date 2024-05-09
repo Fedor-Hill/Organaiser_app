@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'dart:convert';
 
 import 'package:organaiser/data/api_kundelik/model/api_recent_marks/api_recent_marks_model.dart';
@@ -27,4 +28,17 @@ Future<ApiRecentMarksModel> getApiRecentMark(int personId, int groupId, String t
 
 
   return ApiRecentMarksModel.fromJson(data);
+=======
+part of 'get.dart';
+
+Future<ApiRecentMarks> getApiRecentMarks(int personId, int groupId, String token) async {
+  String url = "/v2/persons/$personId/group/$groupId/recentmarks";
+  Map<String, String> queryParameters = {
+    "limit": "7",
+  };
+
+  final rawData = await getData(url, token, queryParameters);
+  final Map<String, dynamic> data = json.decode(rawData);
+  return ApiRecentMarks.fromJson(data);
+>>>>>>> 18c7d66 (version 3.0.1)
 }

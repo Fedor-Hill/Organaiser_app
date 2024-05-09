@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "organaiser_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "organaiser_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "organaiser_app.exe" "\0"
             VALUE "ProductName", "organaiser_app" "\0"
+=======
+            VALUE "FileDescription", "organaiser" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "organaiser" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "organaiser.exe" "\0"
+            VALUE "ProductName", "organaiser" "\0"
+>>>>>>> 18c7d66 (version 3.0.1)
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

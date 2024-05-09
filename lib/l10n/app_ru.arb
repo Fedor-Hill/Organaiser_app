@@ -20,13 +20,21 @@
   "goodnight": "Доброй ночи !",
   "userName": "{userName}",
   "userClass": "{userClass} класс", 
+<<<<<<< HEAD
   "week_static": "Статистика за посление 7 дней", 
+=======
+  "week_static": "Статистика за последние оценки", 
+>>>>>>> 18c7d66 (version 3.0.1)
   "mood_nice": "Молодец, ты супер",
   "mood_good": "Отлично, так держать",
   "mood_bad": "Ты сможешь, давай !",
   "week_info": "Среднее значение: {value}\nКол-во оценок: {valueTwo}",
   "titileRecentMark": "Недавние оценки", 
+<<<<<<< HEAD
   "no_marks": "Нет оценок",
+=======
+  "no_marks": "Пока нет оценок...",
+>>>>>>> 18c7d66 (version 3.0.1)
   "message_update_sheet": "Обновить лист",
   "subject": "Предмет: {subject}",
   "date_mark": "Дата оценки: {date}",

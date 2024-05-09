@@ -16,6 +16,7 @@ abstract class _$AppRouter extends RootStackRouter {
   @override
   final Map<String, PageFactory> pagesMap = {
     HomeScreenRoute.name: (routeData) {
+<<<<<<< HEAD
       final args = routeData.argsAs<HomeScreenRouteArgs>();
       return AutoRoutePage<dynamic>(
         routeData: routeData,
@@ -23,6 +24,11 @@ abstract class _$AppRouter extends RootStackRouter {
           key: args.key,
           userContextModel: args.userContextModel,
         ),
+=======
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const HomeScreen(),
+>>>>>>> 18c7d66 (version 3.0.1)
       );
     },
     LoginScreenRoute.name: (routeData) {
@@ -31,6 +37,7 @@ abstract class _$AppRouter extends RootStackRouter {
         child: const LoginScreen(),
       );
     },
+<<<<<<< HEAD
     MainMenuPageRoute.name: (routeData) {
       final args = routeData.argsAs<MainMenuPageRouteArgs>();
       return AutoRoutePage<dynamic>(
@@ -59,6 +66,24 @@ abstract class _$AppRouter extends RootStackRouter {
           key: args.key,
           userContextModel: args.userContextModel,
         ),
+=======
+    MainMenuScreenRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const MainMenuScreen(),
+      );
+    },
+    ProfileScreenRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const ProfileScreen(),
+      );
+    },
+    SheduleScreenRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const SheduleScreen(),
+>>>>>>> 18c7d66 (version 3.0.1)
       );
     },
     StartScreenRoute.name: (routeData) {
@@ -72,6 +97,7 @@ abstract class _$AppRouter extends RootStackRouter {
 
 /// generated route for
 /// [HomeScreen]
+<<<<<<< HEAD
 class HomeScreenRoute extends PageRouteInfo<HomeScreenRouteArgs> {
   HomeScreenRoute({
     Key? key,
@@ -83,11 +109,18 @@ class HomeScreenRoute extends PageRouteInfo<HomeScreenRouteArgs> {
             key: key,
             userContextModel: userContextModel,
           ),
+=======
+class HomeScreenRoute extends PageRouteInfo<void> {
+  const HomeScreenRoute({List<PageRouteInfo>? children})
+      : super(
+          HomeScreenRoute.name,
+>>>>>>> 18c7d66 (version 3.0.1)
           initialChildren: children,
         );
 
   static const String name = 'HomeScreenRoute';
 
+<<<<<<< HEAD
   static const PageInfo<HomeScreenRouteArgs> page =
       PageInfo<HomeScreenRouteArgs>(name);
 }
@@ -106,6 +139,9 @@ class HomeScreenRouteArgs {
   String toString() {
     return 'HomeScreenRouteArgs{key: $key, userContextModel: $userContextModel}';
   }
+=======
+  static const PageInfo<void> page = PageInfo<void>(name);
+>>>>>>> 18c7d66 (version 3.0.1)
 }
 
 /// generated route for
@@ -123,6 +159,7 @@ class LoginScreenRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
+<<<<<<< HEAD
 /// [MainMenuPage]
 class MainMenuPageRoute extends PageRouteInfo<MainMenuPageRouteArgs> {
   MainMenuPageRoute({
@@ -234,6 +271,47 @@ class ShedulePageRouteArgs {
   String toString() {
     return 'ShedulePageRouteArgs{key: $key, userContextModel: $userContextModel}';
   }
+=======
+/// [MainMenuScreen]
+class MainMenuScreenRoute extends PageRouteInfo<void> {
+  const MainMenuScreenRoute({List<PageRouteInfo>? children})
+      : super(
+          MainMenuScreenRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'MainMenuScreenRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [ProfileScreen]
+class ProfileScreenRoute extends PageRouteInfo<void> {
+  const ProfileScreenRoute({List<PageRouteInfo>? children})
+      : super(
+          ProfileScreenRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'ProfileScreenRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [SheduleScreen]
+class SheduleScreenRoute extends PageRouteInfo<void> {
+  const SheduleScreenRoute({List<PageRouteInfo>? children})
+      : super(
+          SheduleScreenRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'SheduleScreenRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+>>>>>>> 18c7d66 (version 3.0.1)
 }
 
 /// generated route for

@@ -1,10 +1,19 @@
 {
+<<<<<<< HEAD
     "name": "organaiser_app",
     "short_name": "organaiser_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#hexcode",
     "theme_color": "#hexcode",
+=======
+    "name": "organaiser",
+    "short_name": "organaiser",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+>>>>>>> 18c7d66 (version 3.0.1)
     "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
@@ -32,4 +41,8 @@
             "purpose": "maskable"
         }
     ]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 18c7d66 (version 3.0.1)

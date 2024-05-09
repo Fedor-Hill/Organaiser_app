@@ -20,14 +20,22 @@
   "goodnight": "Good night !",
   "userName": "{userName}",
   "userClass": "{userClass} class",
+<<<<<<< HEAD
   "week_static": "Statistics for the last 7 days",
+=======
+  "week_static": "Statistics for the last mark",
+>>>>>>> 18c7d66 (version 3.0.1)
   "mood_nice": "Excellent, you super",
   "mood_good": "Good, keep it up",
   "mood_bad": "C`mon, you can do better !",
   "week_info": "Average marks: {value}\nSummary marks: {valueTwo}",
   "titileRecentMark": "Recent marks",
   "message_update_sheet": "Update sheet",
+<<<<<<< HEAD
   "no_marks": "No marks",
+=======
+  "no_marks": "No marks yet...",
+>>>>>>> 18c7d66 (version 3.0.1)
   "subject": "Subject: {subject}",
   "date_mark": "Date mark: {date}",
   "date_lesson": "Date lesson: {date}",

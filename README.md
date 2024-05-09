@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to this project
 "Органайзер" - это приложение, с помощью которого Вы можете просматривать свой электронный дневник из базы "Kundelik".
 
@@ -26,3 +27,21 @@ ui -> описание всего ui состовляющего
 2. Годовые оценки.
 3. Глобальную статистику пользователя.
 4. Страницу об учебном заведении. 
+=======
+# organaiser
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+>>>>>>> 18c7d66 (version 3.0.1)

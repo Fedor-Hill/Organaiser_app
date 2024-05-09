@@ -6,6 +6,7 @@ part of 'api_recent_marks_model.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
+<<<<<<< HEAD
 ApiRecentMarksModel _$ApiRecentMarksModelFromJson(Map<String, dynamic> json) =>
     ApiRecentMarksModel(
       marks: (json['marks'] as List<dynamic>)
@@ -29,4 +30,16 @@ Map<String, dynamic> _$ApiRecentMarksModelToJson(
       'subjects': instance.subject,
       'lessons': instance.lessons,
       'criteriabasedmarks': instance.criteriabasedmarks,
+=======
+ApiRecentMarks _$ApiRecentMarksFromJson(Map<String, dynamic> json) =>
+    ApiRecentMarks(
+      marks: (json['marks'] as List<dynamic>)
+          .map((e) => ApiMark.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
+Map<String, dynamic> _$ApiRecentMarksToJson(ApiRecentMarks instance) =>
+    <String, dynamic>{
+      'marks': instance.marks,
+>>>>>>> 18c7d66 (version 3.0.1)
     };
