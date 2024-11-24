@@ -1,7 +1,7 @@
 name: organaiser
-description: "A rewrite Organaiser project. V3"
+description: "Organaiser project. V3"
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-version: 3.0.0+1
+version: 2024.11.69
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
