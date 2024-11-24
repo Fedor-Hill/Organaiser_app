@@ -17,8 +17,8 @@ flutter run
 
 ## Directory structure
 In lib: 
-    * data: Backend side. Like API connect and other things and etc.
-    * domain: Models contain. In here i contain Class and Abstract class models.
+   * data: Backend side. Like API connect and other things and etc.
+   * domain: Models contain. In here i contain Class and Abstract class models.
     * l10n: For localization. Language ну ты понял (:
     * theme and ui: idk what in here, lol. 
     * main.dart: he is main dude. 
