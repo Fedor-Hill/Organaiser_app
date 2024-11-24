@@ -2,7 +2,7 @@
 "Organaiser" project is app for mobile and pc that make schoolkids *life better*. 
 It`s improve interaction to see your marks and other data from ![Kundelik.kz](https://kundelik.kz/).  
 
-![Screenshot](screenshots/screenshot_dark.jpg)
+![ScreenshotL](screenshots/screenshot_light.jpg) ![ScreenshotD](screenshots/screenshot_dark.jpg)
 
 ## For developers
 - [Installation](#installation)
