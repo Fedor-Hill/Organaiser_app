@@ -1,10 +1,22 @@
 # "Organaiser" project
-"Organaiser" project is app for mobile and pc that make schoolkids *life better*. 
+*"Organaiser" project* is app for mobile and pc that make schoolkids *life better*. 
 It`s improve interaction to see your marks and other data from ![Kundelik.kz](https://kundelik.kz/).  
 
-![ScreenshotL](screenshots/screenshot_light.png)![ScreenshotD](screenshots/screenshot_dark.png)
+![ScreenshotL](screenshots/screenshot_light.png) ![ScreenshotD](screenshots/screenshot_dark.png)
 
-## For developers
+
+# What`s done ?
+- Recent marks. 
+- Schedule.
+- List of homeworks.
+- Page info about you. 
+- Page of classmates.
+- Total marks by quarter and year. 
+- Dark and light theme. Thank ![Catppuccin pallete](https://github.com/catppuccin/catppuccin) !!!
+
+**For start to use an app you need just active login in Kundelik.**
+
+## ***For developers***
 - [Installation](#installation)
 - [How it works ?](#how-it-works-?)
 - [Directory structure](#directory-structure)
