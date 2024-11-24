@@ -4,7 +4,7 @@ It`s improve interaction to see your marks and other data from Kundelik.kz.
 
 ## For developers
 - [Installation](#installation)
-- [Directory structure](#files)
+- [Directory structure](#directorystructure)
 - [License](#license)
 
 ## Installation
